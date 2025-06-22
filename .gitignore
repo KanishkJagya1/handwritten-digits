@@ -10,8 +10,10 @@ ENV/
 .venv/
 
 # PyTorch model files
+# Ignore all .pth files except the specific trained model
 *.pth
 *.pt
+!cgan_mnist/checkpoints/generator_epoch_50.pth
 
 # Streamlit logs and cache
 .streamlit/
