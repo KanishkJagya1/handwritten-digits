@@ -40,5 +40,4 @@ build/
 
 # Data or temp folders (optional, based on your use)
 cgan_mnist/__pycache__/
-checkpoints/
 outputs/
