@@ -1,0 +1,44 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Streamlit logs and cache
+.streamlit/
+*.log
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# MacOS & Windows specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package/build artifacts
+*.egg-info/
+dist/
+build/
+
+# Matplotlib GUI cache
+.matplotlib/
+
+# Data or temp folders (optional, based on your use)
+cgan_mnist/__pycache__/
+checkpoints/
+outputs/
